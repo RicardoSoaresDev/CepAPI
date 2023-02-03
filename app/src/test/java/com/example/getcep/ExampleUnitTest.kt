@@ -1,4 +1,4 @@
-package com.example.getprofilegithub
+package com.example.getcep
 
 import org.junit.Test
 

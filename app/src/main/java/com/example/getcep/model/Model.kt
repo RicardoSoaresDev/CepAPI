@@ -1,7 +1,5 @@
-package com.example.getprofilegithub.model
+package com.example.getcep.model
 
-import android.text.Editable
-import android.widget.TextView
 import com.google.gson.annotations.SerializedName
 
 data class Model(

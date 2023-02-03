@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.getprofilegithub'
+    namespace 'com.example.getcep'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.getprofilegithub"
+        applicationId "com.example.getcep"
         minSdk 21
         targetSdk 33
         versionCode 1

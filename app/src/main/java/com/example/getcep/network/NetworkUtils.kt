@@ -1,4 +1,4 @@
-package com.example.getprofilegithub.network
+package com.example.getcep.network
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

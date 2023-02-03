@@ -1,19 +1,16 @@
-package com.example.getprofilegithub
+package com.example.getcep
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
-import androidx.core.content.ContentProviderCompat.requireContext
-import com.example.getprofilegithub.model.Model
-import com.example.getprofilegithub.network.EndPointPath
-import com.example.getprofilegithub.network.NetworkUtils
+import com.example.getcep.model.Model
+import com.example.getcep.network.EndPointPath
+import com.example.getcep.network.NetworkUtils
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import retrofit2.create
 
 class MainActivity : AppCompatActivity() {
 
