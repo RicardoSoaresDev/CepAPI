@@ -28,8 +28,14 @@ class MainActivity : AppCompatActivity() {
         neighbourhood = findViewById(R.id.neighbourhood)
         city = findViewById(R.id.city)
         state = findViewById(R.id.state)
-        button = findViewById(R.id.button1)
 
+        address.isEnabled = false
+        neighbourhood.isEnabled = false
+        city.isEnabled = false
+        state.isEnabled = false
+
+
+        button = findViewById(R.id.button1)
         button.setOnClickListener {
 
             getData(address, neighbourhood, city, state)
